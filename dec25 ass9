@@ -1,0 +1,15 @@
+n = int(input())
+f = 0
+s = 1
+sum = 0
+if n <= 0:
+    print("required number is :", f)
+else:
+    for i in range(f, n):
+        print(f, end=" ")
+        sum = sum + f
+        next = f + s
+        f = s
+        s = next
+
+print("total:", sum)
